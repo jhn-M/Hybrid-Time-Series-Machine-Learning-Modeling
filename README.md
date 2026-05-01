@@ -39,7 +39,7 @@ The Hybrid ARIMA-RF model consistently outperformed the standalone ARIMA model, 
     - `matplotlib`, `seaborn` (Visualization)
 
 ## 📈 Methodology
-1. **ARIMA**: Handles the seasonal and linear components of the inflation data.
+1. **ARIMA**: Captures the linear trends and autoregressive patterns of the inflation data.
 2. **Residual Extraction**: The errors (residuals) from the ARIMA model are extracted as the target variable for the next stage.
 3. **Random Forest**: An RF model is trained on these residuals to predict the "error" or gap left by the linear model.
 4. **Final Forecast**: The ARIMA forecast and the RF residual prediction are summed to create the final hybrid forecast.
