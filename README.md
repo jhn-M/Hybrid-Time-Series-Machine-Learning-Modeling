@@ -22,6 +22,8 @@ captures non-linear patterns that ARIMA alone cannot model.
 The model was refitted on the full dataset (January 2021 – December 2025) 
 and used to generate a 36-month forward forecast with a 95% growing 
 confidence interval.
+<img width="4169" height="1468" alt="forecast_plot" src="https://github.com/user-attachments/assets/23fe9527-e6c3-4fc0-97c2-ff3d1320f8ae" />
+
 
 ### What the Forecast Shows
 
